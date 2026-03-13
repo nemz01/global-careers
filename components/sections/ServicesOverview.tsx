@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
-import { UserCheck, Users, Bot, ArrowRight } from 'lucide-react';
+import { Building2, Globe, Bot, ArrowRight } from 'lucide-react';
 import { GlassCard } from '@/components/ui/GlassCard';
 import { Link } from '@/i18n/routing';
 import { fadeInUp, staggerContainer, springHover } from '@/lib/animations';
@@ -13,32 +13,37 @@ export function ServicesOverview() {
 
   const services = [
     {
-      icon: UserCheck,
-      title: t('directHire.title'),
-      description: t('directHire.description'),
-      price: '30%',
-      priceLabel: 'of first-year salary',
-      href: '/services/direct-hire' as const,
-      features: [to('directHireFeature1'), to('directHireFeature2'), to('directHireFeature3')],
+      icon: Building2,
+      iconColor: 'text-secondary-blue',
+      iconBg: 'bg-secondary-blue/10',
+      title: t('usHiring.title'),
+      description: t('usHiring.description'),
+      price: 'US',
+      priceLabel: 'based talent',
+      href: '/services/us-hiring' as const,
+      features: [to('usHiringFeature1'), to('usHiringFeature2'), to('usHiringFeature3')],
     },
     {
-      icon: Users,
-      title: t('talentOnDemand.title'),
-      description: t('talentOnDemand.description'),
-      price: '$1,400',
-      priceLabel: '/month starting',
-      href: '/services/talent-on-demand' as const,
-      features: [to('todFeature1'), to('todFeature2'), to('todFeature3')],
+      icon: Globe,
+      iconColor: 'text-primary-cyan',
+      iconBg: 'bg-primary-cyan/10',
+      title: t('offshoreHiring.title'),
+      description: t('offshoreHiring.description'),
+      price: '60-80%',
+      priceLabel: 'savings',
+      href: '/services/offshore-hiring' as const,
+      features: [to('offshoreFeature1'), to('offshoreFeature2'), to('offshoreFeature3')],
     },
     {
       icon: Bot,
-      title: t('aiRecruitment.title'),
-      description: t('aiRecruitment.description'),
+      iconColor: 'text-brand-gold',
+      iconBg: 'bg-brand-gold/10',
+      title: t('aiShore.title'),
+      description: t('aiShore.description'),
       price: 'AI',
-      priceLabel: 'integrated',
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      href: '/services/ai-recruitment' as any,
-      features: [to('aiFeature1'), to('aiFeature2'), to('aiFeature3')],
+      priceLabel: 'employees',
+      href: '/services/ai-shore' as const,
+      features: [to('aiShoreFeature1'), to('aiShoreFeature2'), to('aiShoreFeature3')],
     },
   ];
 
@@ -75,10 +80,9 @@ export function ServicesOverview() {
             >
               <GlassCard className="h-full flex flex-col">
                 <div className="relative z-10 flex flex-col h-full">
-                  <service.icon
-                    size={32}
-                    className="text-primary-cyan mb-4"
-                  />
+                  <div className={`w-12 h-12 rounded-xl ${service.iconBg} flex items-center justify-center mb-4`}>
+                    <service.icon size={24} className={service.iconColor} />
+                  </div>
                   <h3 className="text-xl font-heading font-bold text-white mb-2">
                     {service.title}
                   </h3>

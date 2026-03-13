@@ -45,16 +45,17 @@ export function VettingProcess() {
             <motion.div
               key={i}
               variants={fadeInUp}
-              className="flex items-start gap-4 mb-8 last:mb-0"
+              whileHover={{ x: 8, transition: { type: 'spring', stiffness: 300, damping: 20 } }}
+              className="flex items-start gap-4 mb-8 last:mb-0 group cursor-default"
             >
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary-cyan/10 border border-primary-cyan/30 flex items-center justify-center relative">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary-cyan/10 border border-primary-cyan/30 flex items-center justify-center relative group-hover:bg-primary-cyan/20 group-hover:border-primary-cyan/50 transition-all duration-300">
                 <step.icon size={20} className="text-primary-cyan" />
                 {i < steps.length - 1 && (
                   <div className="absolute top-12 left-1/2 -translate-x-1/2 w-px h-8 bg-gradient-to-b from-primary-cyan/30 to-transparent" />
                 )}
               </div>
               <div className="pt-1">
-                <h3 className="text-white font-semibold text-lg">{step.title}</h3>
+                <h3 className="text-white font-semibold text-lg group-hover:text-primary-cyan transition-colors duration-200">{step.title}</h3>
                 <p className="text-text-gray text-sm mt-1">{step.desc}</p>
               </div>
             </motion.div>

@@ -326,6 +326,15 @@
   .delay-200 { animation-delay: 200ms; }
   .delay-300 { animation-delay: 300ms; }
   .delay-1000 { animation-delay: 1000ms; }
+
+  .animate-gradient-slow {
+    background: linear-gradient(90deg, #D4A843, #E5BE6A, #D4A843);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-shift 6s ease infinite;
+  }
 }
 
 /* ========================================

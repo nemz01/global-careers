@@ -32,6 +32,17 @@ export function HeroGlobal() {
         transition={{ duration: 12, repeat: Infinity, ease: 'easeInOut' }}
         className="absolute top-1/2 right-[5%] w-16 h-16 rounded-xl bg-brand-gold/5 border border-brand-gold/10 hidden xl:block"
       />
+      {/* Additional floating elements for more depth */}
+      <motion.div
+        animate={{ y: [0, 10, 0], x: [0, -6, 0] }}
+        transition={{ duration: 14, repeat: Infinity, ease: 'easeInOut' }}
+        className="absolute top-[20%] left-[15%] w-12 h-12 rounded-lg bg-primary-cyan/3 border border-primary-cyan/8 hidden xl:block"
+      />
+      <motion.div
+        animate={{ y: [0, -8, 0], rotate: [0, 8, 0] }}
+        transition={{ duration: 9, repeat: Infinity, ease: 'easeInOut' }}
+        className="absolute bottom-[25%] right-[15%] w-20 h-20 rounded-full bg-deep-blue/5 border border-deep-blue/10 hidden lg:block"
+      />
 
       {/* Abstract connection lines SVG */}
       <svg
@@ -61,18 +72,23 @@ export function HeroGlobal() {
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 20, scale: 0.95 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-cyan/10 border border-primary-cyan/20 mb-8"
           >
-            <Globe size={16} className="text-primary-cyan" />
+            <motion.div
+              animate={{ rotate: [0, 360] }}
+              transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
+            >
+              <Globe size={16} className="text-primary-cyan" />
+            </motion.div>
             <span className="text-sm font-medium text-primary-cyan">
               {t('badge')}
             </span>
           </motion.div>
 
-          {/* Title */}
+          {/* Title with animated gradient */}
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -80,7 +96,7 @@ export function HeroGlobal() {
             className="holographic-title text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-bold leading-tight mb-6"
           >
             {t('title')}{' '}
-            <span className="gradient-text-gold">{t('titleHighlight')}</span>
+            <span className="gradient-text-gold animate-gradient-slow">{t('titleHighlight')}</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -124,8 +140,8 @@ export function HeroGlobal() {
             ].map((stat, i) => (
               <motion.div
                 key={i}
-                whileHover={{ y: -4, transition: { type: 'spring', stiffness: 300, damping: 20 } }}
-                className="flex flex-col items-center gap-2 p-4 rounded-xl bg-white/5 border border-white/5 cursor-default"
+                whileHover={{ y: -4, scale: 1.05, transition: { type: 'spring', stiffness: 300, damping: 20 } }}
+                className="flex flex-col items-center gap-2 p-4 rounded-xl bg-white/5 border border-white/5 cursor-default hover:border-primary-cyan/20 hover:bg-white/[0.08] transition-colors duration-300"
               >
                 <stat.icon size={20} className="text-primary-cyan" />
                 <span className="text-2xl font-bold text-white">{stat.value}</span>

@@ -59,6 +59,7 @@ export function HowItWorks() {
             <motion.div
               key={i}
               variants={fadeInUp}
+              whileHover={{ y: -6, scale: 1.03, transition: { type: 'spring', stiffness: 300, damping: 20 } }}
             >
               <GlassCard className="text-center h-full">
                 <div className="flex flex-col items-center gap-4">

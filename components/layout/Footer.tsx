@@ -17,10 +17,9 @@ const Footer: React.FC = () => {
   ];
 
   const servicesLinks = [
-    { label: t('links.directHire'), href: '/services/direct-hire' as const },
-    { label: t('links.talentOnDemand'), href: '/services/talent-on-demand' as const },
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    { label: t('links.aiRecruitment'), href: '/services/ai-recruitment' as any },
+    { label: t('links.usHiring'), href: '/services/us-hiring' as const },
+    { label: t('links.offshoreHiring'), href: '/services/offshore-hiring' as const },
+    { label: t('links.aiShore'), href: '/services/ai-shore' as const },
     { label: t('links.calculator'), href: '/calculator' as const },
     { label: t('links.roles'), href: '/roles' as const },
   ];

@@ -9,7 +9,7 @@ import {
 import { GlassCard } from '@/components/ui/GlassCard';
 import { Link } from '@/i18n/routing';
 import { SALARY_DATA, getCategories } from '@/lib/salary-data';
-import { staggerContainer, scaleIn } from '@/lib/animations';
+import { staggerContainerFast, scaleIn } from '@/lib/animations';
 
 import type { LucideIcon } from 'lucide-react';
 
@@ -52,7 +52,7 @@ export function RolesGrid() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          variants={staggerContainer}
+          variants={staggerContainerFast}
           className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 max-w-5xl mx-auto"
         >
           {categories.map((cat) => {
@@ -69,11 +69,14 @@ export function RolesGrid() {
               <motion.div
                 key={cat}
                 variants={scaleIn}
+                whileHover={{ y: -4, scale: 1.05, transition: { type: 'spring', stiffness: 400, damping: 20 } }}
               >
                 <Link href="/roles">
                   <GlassCard className="text-center p-4 cursor-pointer hover:border-primary-cyan/30">
                     <div className="relative z-10">
-                      <Icon size={28} className="text-primary-cyan mx-auto mb-3" />
+                      <div className="w-10 h-10 rounded-lg bg-primary-cyan/10 flex items-center justify-center mx-auto mb-3 group-hover:bg-primary-cyan/20 transition-colors">
+                        <Icon size={22} className="text-primary-cyan" />
+                      </div>
                       <h3 className="text-sm font-semibold text-white mb-1">
                         {t(`categories.${cat}`)}
                       </h3>

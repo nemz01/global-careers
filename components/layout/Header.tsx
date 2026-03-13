@@ -1,9 +1,9 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
-import { Menu, X, ChevronRight } from 'lucide-react';
+import { Menu, X, ChevronRight, ChevronDown, Building2, Globe, Bot } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { LanguageSwitcher } from './LanguageSwitcher';
@@ -13,10 +13,20 @@ type NavLink = {
   href: '/' | '/roles' | '/how-it-works' | '/pricing' | '/calculator' | '/about' | '/contact';
 };
 
+const serviceItems = [
+  { icon: Building2, color: 'text-secondary-blue', bgColor: 'bg-secondary-blue/10', borderColor: 'border-secondary-blue/20', href: '/services/us-hiring' as const, navKey: 'usHiring' as const, descKey: 'usHiringDesc' as const },
+  { icon: Globe, color: 'text-primary-cyan', bgColor: 'bg-primary-cyan/10', borderColor: 'border-primary-cyan/20', href: '/services/offshore-hiring' as const, navKey: 'offshoreHiring' as const, descKey: 'offshoreHiringDesc' as const },
+  { icon: Bot, color: 'text-brand-gold', bgColor: 'bg-brand-gold/10', borderColor: 'border-brand-gold/20', href: '/services/ai-shore' as const, navKey: 'aiShore' as const, descKey: 'aiShoreDesc' as const },
+];
+
 const Header: React.FC = () => {
   const t = useTranslations('nav');
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+  const servicesRef = useRef<HTMLDivElement>(null);
+  const timeoutRef = useRef<NodeJS.Timeout>();
 
   const navLinks: NavLink[] = [
     { label: t('roles'), href: '/roles' },
@@ -32,6 +42,15 @@ const Header: React.FC = () => {
     window.addEventListener('scroll', onScroll);
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
+
+  const handleServicesEnter = () => {
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    setServicesOpen(true);
+  };
+
+  const handleServicesLeave = () => {
+    timeoutRef.current = setTimeout(() => setServicesOpen(false), 150);
+  };
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
@@ -79,6 +98,61 @@ const Header: React.FC = () => {
           </Link>
 
           <nav className="hidden items-center gap-1 md:flex">
+            {/* Services dropdown */}
+            <div
+              ref={servicesRef}
+              className="relative"
+              onMouseEnter={handleServicesEnter}
+              onMouseLeave={handleServicesLeave}
+            >
+              <button
+                className="relative px-4 py-2 text-sm font-medium text-gray-300 rounded-full transition-all duration-300 hover:text-white group flex items-center gap-1"
+                onClick={() => setServicesOpen(!servicesOpen)}
+              >
+                <span className="absolute inset-0 rounded-full bg-white/0 group-hover:bg-white/5 border border-transparent group-hover:border-primary-cyan/20 backdrop-blur-sm transition-all duration-300" />
+                <span className="relative z-10">{t('services')}</span>
+                <ChevronDown size={14} className={`relative z-10 transition-transform duration-200 ${servicesOpen ? 'rotate-180' : ''}`} />
+              </button>
+
+              <AnimatePresence>
+                {servicesOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 8, scale: 0.98 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={{ opacity: 0, y: 8, scale: 0.98 }}
+                    transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
+                    className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[400px]"
+                  >
+                    <div className="bg-dark-navy/95 backdrop-blur-2xl border border-primary-cyan/15 rounded-2xl shadow-[0_20px_60px_rgba(0,0,0,0.5)] overflow-hidden">
+                      <div className="p-2">
+                        {serviceItems.map((service) => (
+                          <Link
+                            key={service.href}
+                            href={service.href}
+                            onClick={() => setServicesOpen(false)}
+                            className="flex items-start gap-3 p-3 rounded-xl hover:bg-white/5 transition-all duration-200 group/item"
+                          >
+                            <div className={`w-10 h-10 rounded-lg ${service.bgColor} border ${service.borderColor} flex items-center justify-center flex-shrink-0 group-hover/item:scale-110 transition-transform duration-200`}>
+                              <service.icon size={20} className={service.color} />
+                            </div>
+                            <div className="flex-1 min-w-0">
+                              <div className="text-sm font-semibold text-white group-hover/item:text-primary-cyan transition-colors">
+                                {t(service.navKey)}
+                              </div>
+                              <div className="text-xs text-text-gray mt-0.5 leading-relaxed">
+                                {t(service.descKey)}
+                              </div>
+                            </div>
+                            <ChevronRight size={14} className="text-white/20 group-hover/item:text-primary-cyan mt-1 flex-shrink-0 transition-colors" />
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -133,12 +207,58 @@ const Header: React.FC = () => {
           >
             <div className="bg-dark-navy/95 backdrop-blur-2xl border-b border-primary-cyan/20 shadow-[0_20px_60px_rgba(0,0,0,0.5)]">
               <nav className="relative flex flex-col px-6 py-6 gap-2">
+                {/* Services expandable section */}
+                <motion.div
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0 }}
+                >
+                  <button
+                    onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+                    className="w-full flex items-center justify-between py-3 px-4 text-lg font-medium text-white rounded-xl bg-white/5 border border-white/5 hover:bg-primary-cyan/10 hover:border-primary-cyan/20 transition-all"
+                  >
+                    <span>{t('services')}</span>
+                    <ChevronDown size={18} className={`text-primary-cyan transition-transform duration-200 ${mobileServicesOpen ? 'rotate-180' : ''}`} />
+                  </button>
+
+                  <AnimatePresence>
+                    {mobileServicesOpen && (
+                      <motion.div
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: 'auto' }}
+                        exit={{ opacity: 0, height: 0 }}
+                        transition={{ duration: 0.2 }}
+                        className="overflow-hidden"
+                      >
+                        <div className="pl-4 pt-2 space-y-2">
+                          {serviceItems.map((service) => (
+                            <Link
+                              key={service.href}
+                              href={service.href}
+                              onClick={() => { setMobileMenuOpen(false); setMobileServicesOpen(false); }}
+                              className="flex items-center gap-3 py-2.5 px-3 rounded-lg hover:bg-white/5 transition-all"
+                            >
+                              <div className={`w-8 h-8 rounded-lg ${service.bgColor} border ${service.borderColor} flex items-center justify-center flex-shrink-0`}>
+                                <service.icon size={16} className={service.color} />
+                              </div>
+                              <div>
+                                <div className="text-sm font-medium text-white">{t(service.navKey)}</div>
+                                <div className="text-xs text-text-gray">{t(service.descKey)}</div>
+                              </div>
+                            </Link>
+                          ))}
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </motion.div>
+
                 {navLinks.map((link, idx) => (
                   <motion.div
                     key={link.href}
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: idx * 0.1 }}
+                    transition={{ delay: (idx + 1) * 0.1 }}
                   >
                     <Link
                       href={link.href}
@@ -154,7 +274,7 @@ const Header: React.FC = () => {
                 <motion.div
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.35 }}
+                  transition={{ delay: 0.45 }}
                   className="flex justify-center py-2"
                 >
                   <LanguageSwitcher />

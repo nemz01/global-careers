@@ -9,8 +9,6 @@ import { fadeInUp, staggerContainer } from '@/lib/animations';
 
 export function AIShowcase() {
   const t = useTranslations('aiShowcase');
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const aiRecruitmentHref = '/services/ai-recruitment' as any;
 
   const features = [
     { icon: Brain, title: t('feature1Title'), desc: t('feature1Desc') },
@@ -32,12 +30,23 @@ export function AIShowcase() {
           variants={fadeInUp}
           className="text-center mb-16"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-cyan/10 border border-primary-cyan/20 mb-6">
-            <Sparkles size={16} className="text-primary-cyan" />
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-cyan/10 border border-primary-cyan/20 mb-6"
+          >
+            <motion.div
+              animate={{ rotate: [0, 15, -15, 0] }}
+              transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
+            >
+              <Sparkles size={16} className="text-primary-cyan" />
+            </motion.div>
             <span className="text-sm font-medium text-primary-cyan">
               {t('badge')}
             </span>
-          </div>
+          </motion.div>
           <h2 className="holographic-subtitle text-3xl md:text-4xl font-heading font-bold mb-4">
             {t('title')}
           </h2>
@@ -54,7 +63,11 @@ export function AIShowcase() {
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto mb-12"
         >
           {features.map((feature, i) => (
-            <motion.div key={i} variants={fadeInUp}>
+            <motion.div
+              key={i}
+              variants={fadeInUp}
+              whileHover={{ y: -6, scale: 1.03, transition: { type: 'spring', stiffness: 300, damping: 20 } }}
+            >
               <GlassCard className="h-full text-center p-6">
                 <div className="relative z-10">
                   <div className="w-12 h-12 rounded-xl bg-primary-cyan/20 flex items-center justify-center mx-auto mb-4">
@@ -80,7 +93,7 @@ export function AIShowcase() {
           className="text-center"
         >
           <Link
-            href={aiRecruitmentHref}
+            href="/services/ai-shore"
             className="inline-flex items-center gap-2 text-primary-cyan font-semibold hover:gap-3 transition-all"
           >
             {t('cta')} <ArrowRight size={18} />
