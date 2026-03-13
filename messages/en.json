@@ -1,0 +1,461 @@
+{
+  "metadata": {
+    "title": "Global Careers — Offshore Staffing Solutions | Save 60-80% on Talent",
+    "description": "Save up to 80% on talent costs. Pre-vetted offshore professionals across technology, finance, marketing & more from 12+ countries. 6-month guarantee. A subsidiary of Arobas Personnel.",
+    "ogTitle": "Global Careers — Hire Pre-Vetted Offshore Professionals & Save Up to 80%",
+    "ogDescription": "Access 500+ pre-vetted professionals from 12+ countries across technology, finance, operations & more. Save 60-80% versus US salaries with our 6-month placement guarantee."
+  },
+
+  "nav": {
+    "roles": "Roles",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "calculator": "Calculator",
+    "about": "About",
+    "contact": "Contact",
+    "getStarted": "Get Started",
+    "login": "Log In",
+    "dashboard": "Dashboard",
+    "logout": "Log Out"
+  },
+
+  "footer": {
+    "tagline": "Global Careers by Arobas Personnel connects US companies with pre-vetted offshore professionals from 12+ countries — saving you 60-80% on talent costs with zero compromise on quality.",
+    "company": "Company",
+    "services": "Services",
+    "resources": "Resources",
+    "copyright": "\u00a9 {year} Global Careers, a division of Arobas Personnel. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "madeWith": "Made with precision in Orlando, FL & Montr\u00e9al, QC",
+    "links": {
+      "about": "About Us",
+      "howItWorks": "How It Works",
+      "pricing": "Pricing",
+      "contact": "Contact",
+      "directHire": "Direct Hire",
+      "talentOnDemand": "Talent on Demand",
+      "aiRecruitment": "AI Recruitment",
+      "calculator": "Savings Calculator",
+      "roles": "Browse Roles",
+      "blog": "Blog",
+      "candidates": "For Candidates",
+      "jobs": "Open Positions",
+      "bookACall": "Book a Call"
+    }
+  },
+
+  "hero": {
+    "badge": "Trusted by 200+ US Companies",
+    "title": "Hire Elite Offshore Talent at",
+    "titleHighlight": "60-80% Less",
+    "subtitle": "Pre-vetted professionals across technology, finance, marketing & more from 12+ countries. Scale your team faster, spend smarter, and get a 6-month placement guarantee.",
+    "cta": "Calculate Your Savings",
+    "ctaSecondary": "Browse Roles",
+    "stats": {
+      "placements": "500+",
+      "placementsLabel": "Successful Placements",
+      "countries": "12+",
+      "countriesLabel": "Countries Covered",
+      "savings": "60-80%",
+      "savingsLabel": "Average Cost Savings",
+      "clients": "200+",
+      "clientsLabel": "US Companies Served"
+    }
+  },
+
+  "scrollVideo": {
+    "card1Title": "Pre-Vetted Talent",
+    "card1Desc": "Only the top 3% of candidates pass our rigorous 5-step vetting process. Technical assessments, video interviews, and background checks — before you ever see a resume.",
+    "card1Stat": "Top 3%",
+    "card1Label": "Acceptance Rate",
+    "card2Title": "Global Reach",
+    "card2Desc": "Source talent from Colombia, Argentina, Mexico, India, Philippines, Poland, and more. English-fluent professionals ready to integrate with your US-based team.",
+    "card2Stat": "12+",
+    "card2Label": "Countries Covered",
+    "card3Title": "Massive Savings",
+    "card3Desc": "Save 60-80% versus US salaries without compromising quality. We handle payroll, compliance, and infrastructure — you just hire.",
+    "card3Stat": "80%",
+    "card3Label": "Maximum Cost Savings",
+    "card4Title": "Speed to Hire",
+    "card4Desc": "Curated shortlists within 7 days. Most roles filled in under 14 business days. Urgent requests expedited on demand.",
+    "card4Stat": "7 Days",
+    "card4Label": "Average Time to Shortlist",
+    "card5Title": "6-Month Guarantee",
+    "card5Desc": "Every placement backed by our ironclad guarantee. If your hire doesn't meet expectations, we replace them at absolutely no extra cost.",
+    "card5Stat": "100%",
+    "card5Label": "Risk-Free Guarantee"
+  },
+
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "From your first call to onboarding your new hire — we handle everything in as little as 7 days.",
+    "step1Title": "Tell Us What You Need",
+    "step1Description": "Share your role requirements, skills needed, and budget. We'll craft a talent profile and begin sourcing from our pre-vetted network across 12+ countries.",
+    "step2Title": "Review Top Candidates",
+    "step2Description": "Within 7 days, receive curated shortlists of pre-screened professionals — complete with skill assessments, English proficiency scores, and video interviews.",
+    "step3Title": "Hire & Onboard",
+    "step3Description": "Select your ideal candidate, finalize terms, and onboard seamlessly. We handle contracts, payroll, compliance, and ongoing support — backed by our 6-month guarantee.",
+    "vettingTitle": "Our 5-Step Vetting Process",
+    "vettingSubtitle": "Only the top 3% of candidates make it through our rigorous screening",
+    "vettingStep1Title": "Resume Screening",
+    "vettingStep1Description": "AI-powered CV analysis & skills matching",
+    "vettingStep2Title": "Technical Assessment",
+    "vettingStep2Description": "Role-specific tests & aptitude evaluation",
+    "vettingStep3Title": "Video Interview",
+    "vettingStep3Description": "English fluency & cultural fit assessment",
+    "vettingStep4Title": "Background Check",
+    "vettingStep4Description": "Identity verification & reference checks",
+    "vettingStep5Title": "Client Presentation",
+    "vettingStep5Description": "Top 3 candidates presented within 7 days"
+  },
+
+  "pricing": {
+    "title": "Transparent Pricing, Exceptional Value",
+    "subtitle": "No hidden fees. No long-term contracts. Just honest pricing for world-class offshore talent.",
+    "directHire": {
+      "title": "Direct Hire",
+      "description": "One-time placement for permanent roles. Ideal for senior positions, leadership hires, and long-term team members.",
+      "price": "30% of first-year salary",
+      "features": [
+        "One-time placement fee",
+        "6-month replacement guarantee",
+        "Full candidate vetting & assessment",
+        "Contract & compliance handled",
+        "Onboarding support included"
+      ]
+    },
+    "talentOnDemand": {
+      "title": "Talent on Demand",
+      "description": "Flexible, month-to-month staffing with managed payroll, infrastructure, and performance monitoring. Scale up or down as needed.",
+      "tiers": {
+        "junior": {
+          "title": "Junior Talent",
+          "price": "$1,400",
+          "period": "/month",
+          "description": "1-3 years experience. Perfect for support roles and growing teams."
+        },
+        "mid": {
+          "title": "Mid-Level Talent",
+          "price": "$2,200",
+          "period": "/month",
+          "description": "3-6 years experience. Skilled professionals ready to deliver immediately."
+        },
+        "senior": {
+          "title": "Senior Talent",
+          "price": "$3,500",
+          "period": "/month",
+          "description": "6+ years experience. Expert-level contributors for critical projects."
+        }
+      }
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "description": "Custom pricing for teams of 10+ professionals. Dedicated account manager, volume discounts, and priority sourcing.",
+      "cta": "Contact Sales",
+      "features": [
+        "Dedicated account manager",
+        "Volume discounts",
+        "Priority sourcing pipeline",
+        "Custom SLA & reporting",
+        "On-site visits available"
+      ]
+    },
+    "faq": {
+      "q1": "Are there any upfront fees?",
+      "a1": "No. You only pay once we successfully place a candidate who meets your requirements.",
+      "q2": "What does the 6-month guarantee cover?",
+      "a2": "If a placed candidate leaves or is terminated within 6 months, we replace them at no additional cost.",
+      "q3": "How quickly can you fill a role?",
+      "a3": "Most roles are filled within 7-14 business days. Urgent requests can be expedited.",
+      "q4": "Can I switch from Talent on Demand to Direct Hire?",
+      "a4": "Absolutely. We make it easy to convert contractors to permanent hires when the time is right.",
+      "q5": "What countries do you source from?",
+      "a5": "We source from 12+ countries including Colombia, Argentina, Mexico, Brazil, India, Philippines, Poland, Ukraine, Romania, Egypt, Morocco, and Tunisia.",
+      "q6": "Who handles payroll and compliance?",
+      "a6": "We do. Our Talent on Demand model includes managed payroll, local compliance, and tax handling for every country we operate in."
+    },
+    "cta": "Start Hiring Today"
+  },
+
+  "calculator": {
+    "title": "Savings Calculator",
+    "subtitle": "See exactly how much you can save by hiring offshore talent through Global Careers.",
+    "selectCategory": "Select Category",
+    "selectRole": "Select Role",
+    "usSalary": "US Average Salary",
+    "offshoreSalary": "Offshore Salary",
+    "annualSavings": "Annual Savings",
+    "savingsPercentage": "Savings Percentage",
+    "getReport": "Get Full Savings Report",
+    "emailPlaceholder": "Enter your email",
+    "companyPlaceholder": "Company name",
+    "ctaHire": "Calculate Your Savings",
+    "perYear": "/year",
+    "disclaimer": "Salary ranges are based on market data and may vary by candidate experience and specific requirements."
+  },
+
+  "roles": {
+    "title": "Explore Offshore Roles",
+    "subtitle": "Browse 50+ pre-vetted role categories across technology, finance, marketing, operations & more. Every candidate is screened, tested, and interview-ready.",
+    "allCategories": "All Categories",
+    "featured": "Featured",
+    "savingsRange": "Save {min}-{max}%",
+    "viewRole": "View Role Details",
+    "hiringCta": "Start Hiring",
+    "skillsRequired": "Skills Required",
+    "countriesAvailable": "Available In",
+    "demandLevel": "Demand Level",
+    "rolesCount": "{count, plural, =1 {role} other {roles}}",
+    "categories": {
+      "technology": "Technology",
+      "data": "Data & AI",
+      "operations": "Operations",
+      "finance": "Finance",
+      "marketing": "Marketing",
+      "sales": "Sales",
+      "hr": "HR",
+      "customer_service": "Customer Service",
+      "creative": "Creative",
+      "executive": "Executive"
+    }
+  },
+
+  "servicesOverview": {
+    "title": "Three Ways to Hire",
+    "subtitle": "Choose the hiring model that fits your needs",
+    "directHireFeature1": "One-time placement fee",
+    "directHireFeature2": "6-month guarantee",
+    "directHireFeature3": "Senior & permanent roles",
+    "todFeature1": "Managed payroll & infrastructure",
+    "todFeature2": "Performance tracking",
+    "todFeature3": "Flexible scaling",
+    "aiFeature1": "AI-powered screening",
+    "aiFeature2": "Smart candidate matching",
+    "aiFeature3": "Automated scheduling"
+  },
+
+  "services": {
+    "directHire": {
+      "title": "Direct Hire",
+      "subtitle": "Permanent placements for your most important roles",
+      "description": "One-time placement fee for senior professionals, team leads, and long-term team members. We find, vet, and deliver top-tier offshore candidates — you make the final call.",
+      "features": [
+        "Comprehensive candidate vetting (technical + cultural fit)",
+        "Full background checks & reference verification",
+        "Contract & compliance handled end-to-end",
+        "Onboarding support & transition management",
+        "Dedicated talent advisor throughout the process"
+      ],
+      "guarantee": "Every placement backed by our 6-month replacement guarantee. If the hire doesn't work out, we replace them free of charge.",
+      "cta": "Hire Permanent Talent"
+    },
+    "talentOnDemand": {
+      "title": "Talent on Demand",
+      "subtitle": "Flexible staffing that scales with your business",
+      "description": "Access pre-vetted offshore professionals on a monthly basis. We manage payroll, infrastructure, and performance monitoring — you focus on growing your business.",
+      "features": [
+        "Month-to-month flexibility — scale up or down anytime",
+        "Managed payroll, benefits & local compliance",
+        "Equipment & secure infrastructure provided",
+        "Weekly performance reports & KPI tracking",
+        "Dedicated account manager for your team"
+      ],
+      "tiers": {
+        "starter": "Starter (1-3 hires)",
+        "growth": "Growth (4-9 hires)",
+        "scale": "Scale (10+ hires)"
+      },
+      "cta": "Start Scaling Your Team"
+    },
+    "aiRecruitment": {
+      "title": "AI-Powered Recruitment",
+      "subtitle": "Next-generation hiring powered by artificial intelligence",
+      "description": "Leverage cutting-edge AI to screen, match, and qualify candidates faster and more accurately than ever before.",
+      "badge": "AI-Powered",
+      "ctaButton": "Get Started with AI",
+      "ctaSecondary": "View All Services",
+      "advantagesTitle": "Why AI-Powered Recruitment?",
+      "advantagesSubtitle": "Our AI technology transforms every stage of the hiring process",
+      "adv1Title": "AI Candidate Screening",
+      "adv1Desc": "Automatically analyze resumes and profiles to identify top candidates based on skills, experience, and cultural fit — reducing screening time by 70%.",
+      "adv2Title": "Smart Matching Algorithm",
+      "adv2Desc": "Our proprietary matching engine pairs your role requirements with candidate strengths, delivering 95%+ match accuracy on shortlists.",
+      "adv3Title": "Automated Interview Scheduling",
+      "adv3Desc": "AI handles timezone coordination, availability matching, and calendar management — candidates are scheduled within hours, not days.",
+      "adv4Title": "Voice AI Outreach",
+      "adv4Desc": "Engage candidates through natural-language voice AI for initial screening calls, qualification checks, and scheduling — 24/7, in multiple languages.",
+      "adv5Title": "AI Qualification Scoring",
+      "adv5Desc": "Each candidate receives a data-driven qualification score based on skill assessments, experience depth, and role alignment — removing bias from the process.",
+      "adv6Title": "Predictive Analytics",
+      "adv6Desc": "Leverage hiring data to predict candidate success, retention likelihood, and optimal compensation — making every hire a strategic decision.",
+      "useCasesTitle": "Real-World Impact",
+      "useCasesSubtitle": "How our AI transforms recruitment outcomes",
+      "useCase1Title": "High-Volume Screening",
+      "useCase1Desc": "Process hundreds of applications in minutes instead of weeks. AI pre-qualifies candidates so your team focuses only on top talent.",
+      "useCase1Stat": "70% faster screening",
+      "useCase2Title": "Global Talent Matching",
+      "useCase2Desc": "Match roles with talent across 12+ countries, considering timezone, language, and cultural compatibility alongside technical skills.",
+      "useCase2Stat": "95% match accuracy",
+      "useCase3Title": "Data-Driven Decisions",
+      "useCase3Desc": "Replace gut-feel hiring with objective qualification scores and predictive analytics that reduce mis-hires by 60%.",
+      "useCase3Stat": "60% fewer mis-hires",
+      "useCase4Title": "24/7 Candidate Engagement",
+      "useCase4Desc": "Voice AI and chatbot engagement ensures no candidate falls through the cracks — every application gets a response within minutes.",
+      "useCase4Stat": "< 5 min response time",
+      "stat1Value": "95%",
+      "stat1Label": "Match Accuracy",
+      "stat2Value": "70%",
+      "stat2Label": "Faster Screening",
+      "stat3Value": "24/7",
+      "stat3Label": "AI Availability",
+      "stat4Value": "60%",
+      "stat4Label": "Fewer Mis-Hires",
+      "ctaTitle": "Ready to Transform Your Hiring?",
+      "ctaSubtitle": "Join forward-thinking companies using AI to find the best offshore talent faster and smarter.",
+      "ctaMainButton": "Schedule a Demo",
+      "ctaViewServices": "View All Services"
+    }
+  },
+
+  "aiShowcase": {
+    "badge": "Powered by AI",
+    "title": "Smarter Hiring, Powered by AI",
+    "subtitle": "Our AI technology screens, matches, and qualifies candidates faster — so you hire the best talent in record time.",
+    "feature1Title": "AI Screening",
+    "feature1Desc": "Analyze hundreds of resumes in minutes with AI-powered candidate screening.",
+    "feature2Title": "Smart Matching",
+    "feature2Desc": "95% match accuracy pairing your roles with the right professionals.",
+    "feature3Title": "Auto Scheduling",
+    "feature3Desc": "AI coordinates timezones and availability for seamless interview booking.",
+    "feature4Title": "Qualification Scoring",
+    "feature4Desc": "Data-driven scores remove bias and predict candidate success.",
+    "cta": "Explore AI Recruitment"
+  },
+
+  "finalCta": {
+    "title": "Ready to Save 60-80% on Talent?",
+    "subtitle": "Join 200+ US companies already hiring pre-vetted offshore professionals through Global Careers."
+  },
+
+  "about": {
+    "title": "About Global Careers",
+    "subtitle": "A subsidiary of Arobas Personnel — connecting US companies with the world's best talent since day one.",
+    "story": "Global Careers was born from a simple observation: US companies were overpaying for talent while brilliant professionals around the world were underemployed. As a division of Arobas Personnel, one of North America's most trusted staffing agencies, we built the infrastructure to bridge that gap — delivering pre-vetted, English-fluent professionals from 12+ countries at 60-80% savings.",
+    "mission": "Our mission is to make world-class talent accessible to every US company, regardless of size or budget. We believe that geography should never be a barrier to finding the right person for the right role.",
+    "values": {
+      "quality": {
+        "title": "Uncompromising Quality",
+        "description": "Only the top 3% of candidates pass our 5-step vetting process. We never sacrifice quality for speed."
+      },
+      "transparency": {
+        "title": "Radical Transparency",
+        "description": "No hidden fees, no surprise charges, no fine print. You see exactly what you pay for — and exactly what you save."
+      },
+      "speed": {
+        "title": "Speed to Hire",
+        "description": "Curated shortlists within 7 days. Most roles filled in under 14 business days. Urgent requests expedited on demand."
+      },
+      "guarantee": {
+        "title": "Ironclad Guarantee",
+        "description": "Every placement backed by a 6-month replacement guarantee. If the hire doesn't work out, we replace them at no extra cost."
+      }
+    },
+    "team": "Our Team",
+    "teamDescription": "Led by recruitment veterans with 20+ years of combined experience in international staffing, our team operates from Orlando, FL and Montr\u00e9al, QC.",
+    "locations": {
+      "title": "Our Locations",
+      "orlando": "Orlando, FL — US Headquarters",
+      "montreal": "Montr\u00e9al, QC — Operations Hub"
+    }
+  },
+
+  "contact": {
+    "title": "Let's Talk",
+    "subtitle": "Tell us what you're looking for and we'll get back to you within 24 hours with a tailored plan.",
+    "name": "Full Name",
+    "email": "Work Email",
+    "company": "Company Name",
+    "phone": "Phone Number",
+    "message": "Tell us about your hiring needs",
+    "submit": "Send Message",
+    "success": "Thank you! Your message has been sent. We'll get back to you within 24 hours.",
+    "error": "Something went wrong. Please try again or email us directly at hello@globalcareers.com."
+  },
+
+  "booking": {
+    "title": "Book a Call",
+    "subtitle": "Schedule a free consultation with our talent advisors. No commitment, no pressure — just honest guidance on your hiring strategy.",
+    "selectType": "Select Call Type",
+    "introCall": "Intro Call (15 min)",
+    "talentReview": "Talent Review (30 min)",
+    "followUp": "Follow-Up (15 min)",
+    "selectDate": "Select a Date",
+    "selectTime": "Select a Time",
+    "notes": "Any notes or specific topics to discuss?",
+    "confirm": "Confirm Booking",
+    "success": "Your call is booked! Check your email for confirmation and a calendar invite."
+  },
+
+  "testimonials": {
+    "title": "Trusted by Leading US Companies",
+    "subtitle": "Hear from business leaders who scaled their teams with Global Careers."
+  },
+
+  "stats": {
+    "title": "The Numbers Speak for Themselves",
+    "placements": "500+",
+    "placementsLabel": "Successful Placements",
+    "countries": "12+",
+    "countriesLabel": "Countries Covered",
+    "savings": "80%",
+    "savingsLabel": "Maximum Cost Savings",
+    "clients": "200+",
+    "clientsLabel": "US Companies Served"
+  },
+
+  "guarantee": {
+    "title": "6-Month Replacement Guarantee",
+    "description": "Every hire through Global Careers is backed by our ironclad 6-month guarantee. If your new team member doesn't meet expectations, we'll find a replacement at absolutely no additional cost. Zero risk, maximum confidence.",
+    "badge": "Our Promise"
+  },
+
+  "cta": {
+    "bookCall": "Book a Free Call",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "viewRoles": "View All Roles",
+    "calculateSavings": "Calculate Your Savings",
+    "hireNow": "Hire Now",
+    "applyNow": "Apply Now",
+    "contactUs": "Contact Us"
+  },
+
+  "validation": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "tooShort": "Must be at least {min} characters",
+    "tooLong": "Must be no more than {max} characters",
+    "invalidPhone": "Please enter a valid phone number"
+  },
+
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred. Please try again.",
+    "success": "Success!",
+    "retry": "Retry",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "search": "Search",
+    "filter": "Filter",
+    "noResults": "No results found. Try adjusting your search or filters.",
+    "perYear": "/year",
+    "perMonth": "/month"
+  }
+}

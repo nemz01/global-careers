@@ -1,0 +1,461 @@
+{
+  "metadata": {
+    "title": "Global Careers — Soluciones de Staffing Offshore | Ahorre 60-80% en Talento",
+    "description": "Ahorre hasta un 80% en costos de talento. Profesionales offshore pre-evaluados en tecnología, finanzas, marketing y más de 12+ países. Garantía de 6 meses. Subsidiaria de Arobas Personnel.",
+    "ogTitle": "Global Careers — Contrate Profesionales Offshore Pre-Evaluados y Ahorre Hasta 80%",
+    "ogDescription": "Acceda a más de 500 profesionales pre-evaluados de 12+ países en tecnología, finanzas, operaciones y más. Ahorre 60-80% versus salarios estadounidenses con nuestra garantía de colocación de 6 meses."
+  },
+
+  "nav": {
+    "roles": "Roles",
+    "howItWorks": "Cómo Funciona",
+    "pricing": "Precios",
+    "calculator": "Calculadora",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "getStarted": "Comenzar",
+    "login": "Iniciar Sesión",
+    "dashboard": "Panel",
+    "logout": "Cerrar Sesión"
+  },
+
+  "footer": {
+    "tagline": "Global Careers por Arobas Personnel conecta a empresas estadounidenses con profesionales offshore pre-evaluados de 12+ países — ahorrándole 60-80% en costos de talento sin comprometer la calidad.",
+    "company": "Empresa",
+    "services": "Servicios",
+    "resources": "Recursos",
+    "copyright": "© {year} Global Careers, una división de Arobas Personnel. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "madeWith": "Hecho con precisión en Orlando, FL y Montréal, QC",
+    "links": {
+      "about": "Sobre Nosotros",
+      "howItWorks": "Cómo Funciona",
+      "pricing": "Precios",
+      "contact": "Contacto",
+      "directHire": "Contratación Directa",
+      "talentOnDemand": "Talento Bajo Demanda",
+      "aiRecruitment": "Reclutamiento IA",
+      "calculator": "Calculadora de Ahorros",
+      "roles": "Explorar Roles",
+      "blog": "Blog",
+      "candidates": "Para Candidatos",
+      "jobs": "Posiciones Abiertas",
+      "bookACall": "Agendar Llamada"
+    }
+  },
+
+  "hero": {
+    "badge": "Confianza de 200+ Empresas en EE.UU.",
+    "title": "Contrate Talento Offshore de Élite al",
+    "titleHighlight": "60-80% Menos",
+    "subtitle": "Profesionales pre-evaluados en tecnología, finanzas, marketing y más de 12+ países. Escale su equipo más rápido, gaste de forma más inteligente y obtenga una garantía de colocación de 6 meses.",
+    "cta": "Calcule Sus Ahorros",
+    "ctaSecondary": "Explorar Roles",
+    "stats": {
+      "placements": "500+",
+      "placementsLabel": "Colocaciones Exitosas",
+      "countries": "12+",
+      "countriesLabel": "Países Cubiertos",
+      "savings": "60-80%",
+      "savingsLabel": "Ahorro Promedio en Costos",
+      "clients": "200+",
+      "clientsLabel": "Empresas de EE.UU. Atendidas"
+    }
+  },
+
+  "scrollVideo": {
+    "card1Title": "Talento Pre-Evaluado",
+    "card1Desc": "Solo el 3% superior de los candidatos pasa nuestro riguroso proceso de evaluación en 5 pasos. Evaluaciones técnicas, entrevistas por video y verificación de antecedentes — antes de que usted vea un currículum.",
+    "card1Stat": "Top 3%",
+    "card1Label": "Tasa de Aceptación",
+    "card2Title": "Alcance Global",
+    "card2Desc": "Reclute talento de Colombia, Argentina, México, India, Filipinas, Polonia y más. Profesionales con fluidez en inglés listos para integrarse con su equipo en EE.UU.",
+    "card2Stat": "12+",
+    "card2Label": "Países Cubiertos",
+    "card3Title": "Ahorros Masivos",
+    "card3Desc": "Ahorre 60-80% en comparación con los salarios de EE.UU. sin comprometer la calidad. Nosotros manejamos la nómina, cumplimiento e infraestructura — usted solo contrata.",
+    "card3Stat": "80%",
+    "card3Label": "Ahorro Máximo en Costos",
+    "card4Title": "Rapidez en la Contratación",
+    "card4Desc": "Listas de candidatos seleccionados en 7 días. La mayoría de los roles se cubren en menos de 14 días hábiles. Solicitudes urgentes expedidas a demanda.",
+    "card4Stat": "7 Días",
+    "card4Label": "Tiempo Promedio para Lista Corta",
+    "card5Title": "Garantía de 6 Meses",
+    "card5Desc": "Cada contratación respaldada por nuestra garantía inquebrantable. Si su contratado no cumple las expectativas, lo reemplazamos sin costo adicional.",
+    "card5Stat": "100%",
+    "card5Label": "Garantía Sin Riesgo"
+  },
+
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "subtitle": "Desde su primera llamada hasta la incorporación de su nuevo empleado — nosotros nos encargamos de todo en tan solo 7 días.",
+    "step1Title": "Cuéntenos Qué Necesita",
+    "step1Description": "Comparta sus requisitos del puesto, habilidades necesarias y presupuesto. Crearemos un perfil de talento y comenzaremos a buscar en nuestra red pre-evaluada en 12+ países.",
+    "step2Title": "Revise los Mejores Candidatos",
+    "step2Description": "En 7 días, reciba listas curadas de profesionales pre-evaluados — con evaluaciones de habilidades, puntuaciones de dominio del inglés y entrevistas en video.",
+    "step3Title": "Contrate e Incorpore",
+    "step3Description": "Seleccione su candidato ideal, finalice los términos e incorpore sin problemas. Nos encargamos de contratos, nómina, cumplimiento y soporte continuo — respaldado por nuestra garantía de 6 meses.",
+    "vettingTitle": "Nuestro Proceso de Evaluación de 5 Pasos",
+    "vettingSubtitle": "Solo el 3% superior de los candidatos pasa nuestro riguroso proceso de selección",
+    "vettingStep1Title": "Revisión de CV",
+    "vettingStep1Description": "Análisis de CV impulsado por IA y coincidencia de habilidades",
+    "vettingStep2Title": "Evaluación Técnica",
+    "vettingStep2Description": "Pruebas y evaluación de aptitudes específicas del puesto",
+    "vettingStep3Title": "Entrevista en Video",
+    "vettingStep3Description": "Evaluación de fluidez en inglés y ajuste cultural",
+    "vettingStep4Title": "Verificación de Antecedentes",
+    "vettingStep4Description": "Verificación de identidad y comprobación de referencias",
+    "vettingStep5Title": "Presentación al Cliente",
+    "vettingStep5Description": "Los 3 mejores candidatos presentados en 7 días"
+  },
+
+  "pricing": {
+    "title": "Precios Transparentes, Valor Excepcional",
+    "subtitle": "Sin costos ocultos. Sin contratos a largo plazo. Solo precios honestos para talento offshore de primer nivel.",
+    "directHire": {
+      "title": "Contratación Directa",
+      "description": "Colocación única para puestos permanentes. Ideal para posiciones senior, contrataciones de liderazgo y miembros del equipo a largo plazo.",
+      "price": "30% del salario del primer año",
+      "features": [
+        "Tarifa de colocación única",
+        "Garantía de reemplazo de 6 meses",
+        "Evaluación completa del candidato",
+        "Contrato y cumplimiento gestionados",
+        "Soporte de incorporación incluido"
+      ]
+    },
+    "talentOnDemand": {
+      "title": "Talento Bajo Demanda",
+      "description": "Staffing flexible mes a mes con nómina gestionada, infraestructura y monitoreo de rendimiento. Escale hacia arriba o abajo según necesite.",
+      "tiers": {
+        "junior": {
+          "title": "Talento Junior",
+          "price": "$1,400",
+          "period": "/mes",
+          "description": "1-3 años de experiencia. Perfecto para roles de soporte y equipos en crecimiento."
+        },
+        "mid": {
+          "title": "Talento Mid-Level",
+          "price": "$2,200",
+          "period": "/mes",
+          "description": "3-6 años de experiencia. Profesionales capacitados listos para entregar de inmediato."
+        },
+        "senior": {
+          "title": "Talento Senior",
+          "price": "$3,500",
+          "period": "/mes",
+          "description": "6+ años de experiencia. Contribuidores de nivel experto para proyectos críticos."
+        }
+      }
+    },
+    "enterprise": {
+      "title": "Empresarial",
+      "description": "Precios personalizados para equipos de 10+ profesionales. Gerente de cuenta dedicado, descuentos por volumen y búsqueda prioritaria.",
+      "cta": "Contactar Ventas",
+      "features": [
+        "Gerente de cuenta dedicado",
+        "Descuentos por volumen",
+        "Pipeline de búsqueda prioritaria",
+        "SLA y reportes personalizados",
+        "Visitas in situ disponibles"
+      ]
+    },
+    "faq": {
+      "q1": "¿Hay costos iniciales?",
+      "a1": "No. Solo paga cuando colocamos exitosamente a un candidato que cumple con sus requisitos.",
+      "q2": "¿Qué cubre la garantía de 6 meses?",
+      "a2": "Si un candidato colocado se va o es despedido dentro de los 6 meses, lo reemplazamos sin costo adicional.",
+      "q3": "¿Qué tan rápido pueden llenar un puesto?",
+      "a3": "La mayoría de los puestos se llenan en 7-14 días hábiles. Las solicitudes urgentes pueden ser agilizadas.",
+      "q4": "¿Puedo cambiar de Talento Bajo Demanda a Contratación Directa?",
+      "a4": "Absolutamente. Facilitamos la conversión de contratistas a empleados permanentes cuando llegue el momento.",
+      "q5": "¿De qué países reclutan?",
+      "a5": "Reclutamos de 12+ países incluyendo Colombia, Argentina, México, Brasil, India, Filipinas, Polonia, Ucrania, Rumanía, Egipto, Marruecos y Túnez.",
+      "q6": "¿Quién maneja la nómina y el cumplimiento?",
+      "a6": "Nosotros. Nuestro modelo de Talento Bajo Demanda incluye nómina gestionada, cumplimiento local y gestión fiscal para cada país donde operamos."
+    },
+    "cta": "Comience a Contratar Hoy"
+  },
+
+  "calculator": {
+    "title": "Calculadora de Ahorros",
+    "subtitle": "Vea exactamente cuánto puede ahorrar contratando talento offshore a través de Global Careers.",
+    "selectCategory": "Seleccionar Categoría",
+    "selectRole": "Seleccionar Rol",
+    "usSalary": "Salario Promedio EE.UU.",
+    "offshoreSalary": "Salario Offshore",
+    "annualSavings": "Ahorro Anual",
+    "savingsPercentage": "Porcentaje de Ahorro",
+    "getReport": "Obtener Reporte Completo de Ahorros",
+    "emailPlaceholder": "Ingrese su correo",
+    "companyPlaceholder": "Nombre de la empresa",
+    "ctaHire": "Calcule Sus Ahorros",
+    "perYear": "/año",
+    "disclaimer": "Los rangos salariales se basan en datos de mercado y pueden variar según la experiencia del candidato y los requisitos específicos."
+  },
+
+  "roles": {
+    "title": "Explore Roles Offshore",
+    "subtitle": "Explore más de 50 categorías de roles pre-evaluados en tecnología, finanzas, marketing, operaciones y más. Cada candidato es evaluado, probado y listo para entrevista.",
+    "allCategories": "Todas las Categorías",
+    "featured": "Destacado",
+    "savingsRange": "Ahorre {min}-{max}%",
+    "viewRole": "Ver Detalles del Rol",
+    "hiringCta": "Comenzar a Contratar",
+    "skillsRequired": "Habilidades Requeridas",
+    "countriesAvailable": "Disponible En",
+    "demandLevel": "Nivel de Demanda",
+    "rolesCount": "{count, plural, =1 {rol} other {roles}}",
+    "categories": {
+      "technology": "Tecnología",
+      "data": "Datos e IA",
+      "operations": "Operaciones",
+      "finance": "Finanzas",
+      "marketing": "Marketing",
+      "sales": "Ventas",
+      "hr": "RRHH",
+      "customer_service": "Atención al Cliente",
+      "creative": "Creativo",
+      "executive": "Ejecutivo"
+    }
+  },
+
+  "servicesOverview": {
+    "title": "Tres Formas de Contratar",
+    "subtitle": "Elija el modelo de contratación que se ajuste a sus necesidades",
+    "directHireFeature1": "Tarifa de colocación única",
+    "directHireFeature2": "Garantía de 6 meses",
+    "directHireFeature3": "Roles senior y permanentes",
+    "todFeature1": "Nómina e infraestructura gestionadas",
+    "todFeature2": "Seguimiento de rendimiento",
+    "todFeature3": "Escalabilidad flexible",
+    "aiFeature1": "Selección impulsada por IA",
+    "aiFeature2": "Coincidencia inteligente de candidatos",
+    "aiFeature3": "Programación automatizada"
+  },
+
+  "services": {
+    "directHire": {
+      "title": "Contratación Directa",
+      "subtitle": "Colocaciones permanentes para sus roles más importantes",
+      "description": "Tarifa de colocación única para profesionales senior, líderes de equipo y miembros a largo plazo. Encontramos, evaluamos y entregamos candidatos offshore de primer nivel — usted toma la decisión final.",
+      "features": [
+        "Evaluación integral del candidato (técnica + ajuste cultural)",
+        "Verificación completa de antecedentes y referencias",
+        "Contrato y cumplimiento gestionados de principio a fin",
+        "Soporte de incorporación y gestión de transición",
+        "Asesor de talento dedicado durante todo el proceso"
+      ],
+      "guarantee": "Cada colocación respaldada por nuestra garantía de reemplazo de 6 meses. Si la contratación no funciona, lo reemplazamos sin cargo.",
+      "cta": "Contratar Talento Permanente"
+    },
+    "talentOnDemand": {
+      "title": "Talento Bajo Demanda",
+      "subtitle": "Staffing flexible que escala con su negocio",
+      "description": "Acceda a profesionales offshore pre-evaluados de forma mensual. Gestionamos nómina, infraestructura y monitoreo de rendimiento — usted se enfoca en hacer crecer su negocio.",
+      "features": [
+        "Flexibilidad mes a mes — escale hacia arriba o abajo en cualquier momento",
+        "Nómina gestionada, beneficios y cumplimiento local",
+        "Equipo e infraestructura segura proporcionados",
+        "Reportes semanales de rendimiento y seguimiento de KPIs",
+        "Gerente de cuenta dedicado para su equipo"
+      ],
+      "tiers": {
+        "starter": "Inicial (1-3 contrataciones)",
+        "growth": "Crecimiento (4-9 contrataciones)",
+        "scale": "Escala (10+ contrataciones)"
+      },
+      "cta": "Comience a Escalar Su Equipo"
+    },
+    "aiRecruitment": {
+      "title": "Reclutamiento con IA",
+      "subtitle": "Contratación de próxima generación impulsada por inteligencia artificial",
+      "description": "Aproveche la IA de vanguardia para seleccionar, emparejar y calificar candidatos más rápido y con mayor precisión que nunca.",
+      "badge": "Impulsado por IA",
+      "ctaButton": "Comience con IA",
+      "ctaSecondary": "Ver Todos los Servicios",
+      "advantagesTitle": "¿Por Qué Reclutamiento con IA?",
+      "advantagesSubtitle": "Nuestra tecnología de IA transforma cada etapa del proceso de contratación",
+      "adv1Title": "Selección de Candidatos con IA",
+      "adv1Desc": "Analice automáticamente CVs y perfiles para identificar los mejores candidatos según habilidades, experiencia y ajuste cultural — reduciendo el tiempo de selección en un 70%.",
+      "adv2Title": "Algoritmo de Coincidencia Inteligente",
+      "adv2Desc": "Nuestro motor de coincidencia propietario empareja sus requisitos con las fortalezas del candidato, entregando una precisión del 95%+ en las listas cortas.",
+      "adv3Title": "Programación Automatizada de Entrevistas",
+      "adv3Desc": "La IA maneja la coordinación de zonas horarias, disponibilidad y gestión de calendario — los candidatos se programan en horas, no días.",
+      "adv4Title": "Contacto con IA de Voz",
+      "adv4Desc": "Interactúe con candidatos a través de IA de voz con lenguaje natural para llamadas de selección inicial, verificaciones de calificación y programación — 24/7, en múltiples idiomas.",
+      "adv5Title": "Puntuación de Calificación con IA",
+      "adv5Desc": "Cada candidato recibe una puntuación basada en datos según evaluaciones de habilidades, profundidad de experiencia y alineación con el rol — eliminando sesgos del proceso.",
+      "adv6Title": "Analítica Predictiva",
+      "adv6Desc": "Aproveche los datos de contratación para predecir el éxito del candidato, probabilidad de retención y compensación óptima — haciendo de cada contratación una decisión estratégica.",
+      "useCasesTitle": "Impacto en el Mundo Real",
+      "useCasesSubtitle": "Cómo nuestra IA transforma los resultados de reclutamiento",
+      "useCase1Title": "Selección de Alto Volumen",
+      "useCase1Desc": "Procese cientos de solicitudes en minutos en vez de semanas. La IA pre-califica candidatos para que su equipo se enfoque solo en el mejor talento.",
+      "useCase1Stat": "70% más rápido",
+      "useCase2Title": "Coincidencia Global de Talento",
+      "useCase2Desc": "Empareje roles con talento en 12+ países, considerando zona horaria, idioma y compatibilidad cultural junto con habilidades técnicas.",
+      "useCase2Stat": "95% de precisión",
+      "useCase3Title": "Decisiones Basadas en Datos",
+      "useCase3Desc": "Reemplace la contratación por intuición con puntuaciones de calificación objetivas y analítica predictiva que reduce las malas contrataciones en un 60%.",
+      "useCase3Stat": "60% menos errores",
+      "useCase4Title": "Engagement 24/7 con Candidatos",
+      "useCase4Desc": "La IA de voz y chatbot garantiza que ningún candidato se pierda — cada solicitud recibe respuesta en minutos.",
+      "useCase4Stat": "< 5 min de respuesta",
+      "stat1Value": "95%",
+      "stat1Label": "Precisión de Coincidencia",
+      "stat2Value": "70%",
+      "stat2Label": "Selección Más Rápida",
+      "stat3Value": "24/7",
+      "stat3Label": "Disponibilidad IA",
+      "stat4Value": "60%",
+      "stat4Label": "Menos Errores de Contratación",
+      "ctaTitle": "¿Listo para Transformar su Contratación?",
+      "ctaSubtitle": "Únase a empresas visionarias que usan IA para encontrar el mejor talento offshore más rápido e inteligente.",
+      "ctaMainButton": "Agendar una Demo",
+      "ctaViewServices": "Ver Todos los Servicios"
+    }
+  },
+
+  "aiShowcase": {
+    "badge": "Impulsado por IA",
+    "title": "Contratación Inteligente, Impulsada por IA",
+    "subtitle": "Nuestra tecnología de IA selecciona, empareja y califica candidatos más rápido — para que contrate al mejor talento en tiempo récord.",
+    "feature1Title": "Selección con IA",
+    "feature1Desc": "Analice cientos de CVs en minutos con selección de candidatos impulsada por IA.",
+    "feature2Title": "Coincidencia Inteligente",
+    "feature2Desc": "95% de precisión emparejando sus roles con los profesionales adecuados.",
+    "feature3Title": "Programación Automática",
+    "feature3Desc": "La IA coordina zonas horarias y disponibilidad para agendar entrevistas sin fricciones.",
+    "feature4Title": "Puntuación de Calificación",
+    "feature4Desc": "Puntuaciones basadas en datos eliminan sesgos y predicen el éxito del candidato.",
+    "cta": "Explorar Reclutamiento con IA"
+  },
+
+  "finalCta": {
+    "title": "¿Listo para Ahorrar 60-80% en Talento?",
+    "subtitle": "Únase a más de 200 empresas estadounidenses que ya contratan profesionales offshore pre-evaluados a través de Global Careers."
+  },
+
+  "about": {
+    "title": "Sobre Global Careers",
+    "subtitle": "Una subsidiaria de Arobas Personnel — conectando empresas estadounidenses con el mejor talento del mundo desde el primer día.",
+    "story": "Global Careers nació de una observación simple: las empresas estadounidenses estaban pagando de más por talento mientras que profesionales brillantes alrededor del mundo estaban subempleados. Como división de Arobas Personnel, una de las agencias de staffing más confiables de Norteamérica, construimos la infraestructura para cerrar esa brecha — entregando profesionales pre-evaluados, fluidos en inglés, de 12+ países con ahorros del 60-80%.",
+    "mission": "Nuestra misión es hacer que el talento de clase mundial sea accesible para cada empresa estadounidense, sin importar su tamaño o presupuesto. Creemos que la geografía nunca debería ser una barrera para encontrar a la persona correcta para el rol correcto.",
+    "values": {
+      "quality": {
+        "title": "Calidad Sin Compromiso",
+        "description": "Solo el 3% superior de los candidatos pasa nuestro proceso de evaluación de 5 pasos. Nunca sacrificamos calidad por velocidad."
+      },
+      "transparency": {
+        "title": "Transparencia Radical",
+        "description": "Sin costos ocultos, sin cargos sorpresa, sin letra pequeña. Usted ve exactamente lo que paga — y exactamente lo que ahorra."
+      },
+      "speed": {
+        "title": "Velocidad de Contratación",
+        "description": "Listas curadas en 7 días. La mayoría de roles llenados en menos de 14 días hábiles. Solicitudes urgentes agilizadas bajo demanda."
+      },
+      "guarantee": {
+        "title": "Garantía Inquebrantable",
+        "description": "Cada colocación respaldada por una garantía de reemplazo de 6 meses. Si la contratación no funciona, lo reemplazamos sin costo adicional."
+      }
+    },
+    "team": "Nuestro Equipo",
+    "teamDescription": "Liderado por veteranos del reclutamiento con 20+ años de experiencia combinada en staffing internacional, nuestro equipo opera desde Orlando, FL y Montréal, QC.",
+    "locations": {
+      "title": "Nuestras Ubicaciones",
+      "orlando": "Orlando, FL — Sede en EE.UU.",
+      "montreal": "Montréal, QC — Centro de Operaciones"
+    }
+  },
+
+  "contact": {
+    "title": "Hablemos",
+    "subtitle": "Cuéntenos qué busca y le responderemos dentro de 24 horas con un plan personalizado.",
+    "name": "Nombre Completo",
+    "email": "Correo de Trabajo",
+    "company": "Nombre de la Empresa",
+    "phone": "Número de Teléfono",
+    "message": "Cuéntenos sobre sus necesidades de contratación",
+    "submit": "Enviar Mensaje",
+    "success": "¡Gracias! Su mensaje ha sido enviado. Le responderemos dentro de 24 horas.",
+    "error": "Algo salió mal. Por favor intente de nuevo o escríbanos directamente a hello@globalcareers.com."
+  },
+
+  "booking": {
+    "title": "Agendar una Llamada",
+    "subtitle": "Programe una consulta gratuita con nuestros asesores de talento. Sin compromiso, sin presión — solo orientación honesta sobre su estrategia de contratación.",
+    "selectType": "Seleccionar Tipo de Llamada",
+    "introCall": "Llamada Introductoria (15 min)",
+    "talentReview": "Revisión de Talento (30 min)",
+    "followUp": "Seguimiento (15 min)",
+    "selectDate": "Seleccionar Fecha",
+    "selectTime": "Seleccionar Hora",
+    "notes": "¿Notas o temas específicos a discutir?",
+    "confirm": "Confirmar Reserva",
+    "success": "¡Su llamada está agendada! Revise su correo para la confirmación e invitación al calendario."
+  },
+
+  "testimonials": {
+    "title": "Confianza de Empresas Líderes de EE.UU.",
+    "subtitle": "Escuche a líderes empresariales que escalaron sus equipos con Global Careers."
+  },
+
+  "stats": {
+    "title": "Los Números Hablan por Sí Mismos",
+    "placements": "500+",
+    "placementsLabel": "Colocaciones Exitosas",
+    "countries": "12+",
+    "countriesLabel": "Países Cubiertos",
+    "savings": "80%",
+    "savingsLabel": "Ahorro Máximo en Costos",
+    "clients": "200+",
+    "clientsLabel": "Empresas de EE.UU. Atendidas"
+  },
+
+  "guarantee": {
+    "title": "Garantía de Reemplazo de 6 Meses",
+    "description": "Cada contratación a través de Global Careers está respaldada por nuestra inquebrantable garantía de 6 meses. Si su nuevo miembro del equipo no cumple con las expectativas, encontraremos un reemplazo sin absolutamente ningún costo adicional. Cero riesgo, máxima confianza.",
+    "badge": "Nuestra Promesa"
+  },
+
+  "cta": {
+    "bookCall": "Agendar Llamada Gratuita",
+    "getStarted": "Comenzar",
+    "learnMore": "Saber Más",
+    "viewRoles": "Ver Todos los Roles",
+    "calculateSavings": "Calcular Sus Ahorros",
+    "hireNow": "Contratar Ahora",
+    "applyNow": "Aplicar Ahora",
+    "contactUs": "Contáctenos"
+  },
+
+  "validation": {
+    "required": "Este campo es obligatorio",
+    "invalidEmail": "Por favor ingrese un correo electrónico válido",
+    "tooShort": "Debe tener al menos {min} caracteres",
+    "tooLong": "No debe tener más de {max} caracteres",
+    "invalidPhone": "Por favor ingrese un número de teléfono válido"
+  },
+
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error. Por favor intente de nuevo.",
+    "success": "¡Éxito!",
+    "retry": "Reintentar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "readMore": "Leer Más",
+    "viewAll": "Ver Todo",
+    "close": "Cerrar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "noResults": "No se encontraron resultados. Intente ajustar su búsqueda o filtros.",
+    "perYear": "/año",
+    "perMonth": "/mes"
+  }
+}
